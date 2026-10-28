@@ -85,6 +85,9 @@ section.first{border-top:0;padding-top:3rem}
 .row dt{font-weight:700;font-size:.9rem;color:var(--teal);margin-bottom:.25rem}
 .row dd{margin:0;font-size:.98rem}
 
+.matrix.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.matrix.three .ws{grid-row:span 4}
+
 /* timeline */
 .track{list-style:none;margin:2rem 0 0;padding:0;display:grid;gap:1.5rem;grid-template-columns:repeat(4,minmax(0,1fr))}
 .track li{position:relative;padding-top:1.6rem;border-top:2px solid var(--line)}
@@ -190,6 +193,7 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.92rem;border-top:1px so
     <nav aria-label="Sections">
       <a href="#summary">Summary</a>
       <a href="#workstreams">Workstreams</a>
+      <a href="#segments">Segments</a>
       <a href="#timeline">12-month plan</a>
       <a href="#ownership">Ownership</a>
       <a href="#terms">Terms</a>
@@ -233,10 +237,10 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.92rem;border-top:1px so
       <article class="ws">
         <header>
           <h3>Longevity Real Estate</h3>
-          <p>Developers, senior-living operators and hospitality or residential groups</p>
+          <p>Senior Living, Wellness and Hospitality</p>
         </header>
-        <dl class="row"><dt>What I do</dt><dd>Take DKG’s real estate offer (book, market intelligence and blueprints) to Indian developers and operators. I qualify six targets and agree the India offer with DKG in Month 1.</dd></dl>
-        <dl class="row"><dt>Proof by Month 3</dt><dd>Six targets scored. India offer agreed. At least three substantive discussions with developers or operators. One scoped pilot.</dd></dl>
+        <dl class="row"><dt>What I do</dt><dd>Take DKG’s real estate offer (book, market intelligence and blueprints) to Indian developers and operators in three segments. Senior Living goes first. I score five Senior Living targets and agree the India offer with DKG in Month 1.</dd></dl>
+        <dl class="row"><dt>Proof by Month 3</dt><dd>Five Senior Living targets scored in Month 1 and all 15 targets by Month 3. India offer agreed. At least three substantive discussions, at least two in Senior Living. One scoped pilot.</dd></dl>
         <dl class="row"><dt>What DKG provides</dt><dd>In Month 1: materials, pricing guidance, and confirmation of what DKG can deliver in India.</dd></dl>
         <dl class="row"><dt>Gate</dt><dd>End of Month 3: DKG decides whether to move qualified developers into feasibility or pilot engagements in Phase 2.</dd></dl>
       </article>
@@ -256,6 +260,47 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.92rem;border-top:1px so
   </div>
 </section>
 
+<section id="segments">
+  <div class="wrap">
+    <h2>Longevity Real Estate: three segments</h2>
+    <p class="sub">Senior Living goes first because it is the closest fit to DKG’s frameworks. The 15 target organisations are named in the written proposal.</p>
+
+    <div class="matrix three">
+
+      <article class="ws">
+        <header>
+          <h3>Senior Living</h3>
+          <p>5 targets, scored in Month 1</p>
+        </header>
+        <dl class="row"><dt>Proposition</dt><dd>Apply DKG’s frameworks to a specific community or upcoming development: mobility and fall-risk reduction, access to care, social connection, sleep, green space and preventive-health amenities.</dd></dl>
+        <dl class="row"><dt>Why DKG fits</dt><dd>DKG’s frameworks cover longevity-oriented homes, amenities and health-related services, which map directly to independent and supported living.</dd></dl>
+        <dl class="row"><dt>Proof by Month 3</dt><dd>At least two substantive discussions and one scoped pilot.</dd></dl>
+      </article>
+
+      <article class="ws">
+        <header>
+          <h3>Wellness</h3>
+          <p>5 targets, scored in Months 2 to 3</p>
+        </header>
+        <dl class="row"><dt>Proposition</dt><dd>Link the built environment to the operator’s programmes: movement, restorative sleep, nutrition, stress reduction, nature and longer stays, with measurable guest outcomes.</dd></dl>
+        <dl class="row"><dt>Why DKG fits</dt><dd>The built environment can support the operator’s programmes. Outreach starts in Phase 2.</dd></dl>
+        <dl class="row"><dt>Proof by Month 3</dt><dd>Targets scored and ranked. One discussion across Wellness and Hospitality.</dd></dl>
+      </article>
+
+      <article class="ws">
+        <header>
+          <h3>Hospitality</h3>
+          <p>5 targets, scored in Months 2 to 3</p>
+        </header>
+        <dl class="row"><dt>Proposition</dt><dd>Add longevity-oriented rooms, wellness zones, restorative sleep, healthy food, movement spaces, indoor environmental quality and age-inclusive design to selected properties.</dd></dl>
+        <dl class="row"><dt>Why DKG fits</dt><dd>DKG’s frameworks cover the buildings, amenities and health-related services that shape a guest stay at premium brands. Outreach starts in Phase 2.</dd></dl>
+        <dl class="row"><dt>Proof by Month 3</dt><dd>Targets scored and ranked.</dd></dl>
+      </article>
+
+    </div>
+  </div>
+</section>
+
 <section id="timeline">
   <div class="wrap">
     <h2>12-month plan</h2>
@@ -265,7 +310,7 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.92rem;border-top:1px so
       <li>
         <h3>Phase 1: Qualify and open</h3>
         <div class="when">Months 1 to 3</div>
-        <p>Real estate targets scored. India real estate offer agreed with DKG. At least three substantive discussions with developers or operators. One scoped real estate pilot. Index recommendation by Month 2.</p>
+        <p>15 real estate targets scored across three segments, Senior Living first. India real estate offer agreed with DKG. At least three substantive discussions with developers or operators. One scoped real estate pilot. Index recommendation by Month 2.</p>
       </li>
       <li>
         <h3>Phase 2: Scope and sign</h3>
@@ -361,7 +406,7 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.92rem;border-top:1px so
           </ul>
           <h4>I deliver</h4>
           <ul>
-            <li>Six real estate targets scored on five criteria</li>
+            <li>Five Senior Living targets scored on five criteria</li>
             <li>A map of Indian data sources for the Index</li>
           </ul>
         </li>
